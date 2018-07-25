@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup"
+    android:paddingLeft="@dimen/com_facebook_share_button_padding_left"
+    android:paddingRight="@dimen/com_facebook_share_button_padding_right"
+    android:paddingTop="@dimen/com_facebook_share_button_padding_top"
+    android:background="@color/tw__composer_white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter group Name"
+        android:textColor="@color/tw__composer_black"
+        android:paddingLeft="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/groupname"
+        android:hint="Maximum 10 characters"
+        android:maxLength="10"
+        android:layout_marginTop="4dp"
+        android:inputType="text"
+        android:maxLines="1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter password"
+        android:textColor="@color/tw__composer_black"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="5dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grouppass"
+        android:hint="Maximum 10 chars"
+        android:layout_marginTop="4dp"
+        android:inputType="text"
+        android:maxLines="1"
+
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Created by:"
+    android:paddingLeft="5dp"
+    android:textColor="@color/tw__composer_black"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/creater"
+        android:hint="Email of creater"
+        android:maxLines="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find"
+        android:backgroundTint="@color/authui_colorAccent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/findgroup"
+        />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="3dp"
+        android:backgroundTint="@color/tw__light_gray"
+        android:text="  Exit" />
+</LinearLayout>

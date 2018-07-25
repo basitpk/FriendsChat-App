@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/changer"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/round_rect_me"
+        android:alpha="0.8"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="14dp"
+        android:paddingTop="2dp"
+        android:paddingLeft="1dp"
+        android:paddingRight="2dp">
+
+        <TextView
+            android:id="@+id/meesage_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:text="kalalbasit"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/meesage_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="@+id/meesage_user"
+            android:layout_alignParentEnd="true"
+            android:text="dd-MM-yy (HH:mm)" />
+
+        <TextView
+            android:id="@+id/meesage_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/meesage_user"
+            android:layout_marginTop="1dp"
+            android:padding="4dp"
+            android:maxWidth="200dp"
+            android:text="hggfgfghfgfgfggffhjhgjgjghjghfghn"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

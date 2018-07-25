@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/group_rect"
+    android:layout_margin="5dp"
+    android:padding="3dp"
+    >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/profile"
+        android:src="@drawable/ic_group"
+        android:layout_marginLeft="3dp"
+        />
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="@+id/profile"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/profile"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25dp"
+        android:maxHeight="40dp"
+        android:text="Basit"
+         />
+
+    <TextView
+        android:id="@+id/groupcreater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/group_name"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:text="kalalbasit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_name"
+        android:layout_toLeftOf="@+id/groupcreater"
+        android:text="Created By: "
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</RelativeLayout>
